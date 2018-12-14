@@ -1,0 +1,56 @@
+.hero-img {
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 700px;
+	@media ( min-width: 1200px ) {
+		border-top-left-radius: 65%;
+	}
+	@media ( max-width: 768px ) {
+		margin-top: -18em;
+		height: 1100px;
+	}
+	@media ( max-width: 414px ) {
+		margin-top: -14em;
+		height: 800px;
+	}
+}
+
+.site-logo {
+	margin-top: 1em;
+	img {
+		width: 95%;
+	}
+}
+
+
+
+.hero-content {
+	float: right;
+	padding-top: 21em;
+	@media ( max-width: 414px ) {
+		padding-top: 28em;
+	}
+	@media ( max-width: 375px ) {
+		padding-top: 20em;
+	}
+		h1 {
+			font-size: 100px;
+			color: $white;
+			letter-spacing: 14px;
+			opacity: .8;
+			font-family: Alfa+Slab+One;
+			text-shadow: $text-shadow1;
+			@media ( max-width: 414px ) {
+				font-size: 64px;
+				letter-spacing: 5px;
+			}
+		}
+}
+
+.logo-sm-nav {
+	img {
+		max-width: 70%;
+		margin-left: 28%;
+	}
+}

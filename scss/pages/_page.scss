@@ -1,0 +1,73 @@
+/* Drivers Team Page ------------------------------------- */
+#teamDriversPg {
+	margin-top: 10em;
+	@media ( max-width: 414px ) {
+		margin-top: 2em;
+	}
+	margin-bottom: 2em;
+	h1 {
+		text-align: center;
+	}
+}
+
+.drivers-pg {
+	img {
+		max-width: 100%;
+		display: block!important;
+		margin: auto!important;
+	}
+}
+
+.driver-row {
+	padding-bottom: 2em;
+}
+
+.driver-content {
+	padding-left: 14%;
+}
+
+/* Sponsors Page ------------------------------------- */
+.sponsors-pg {
+	margin-top: 12em;
+	margin-bottom: 2em;
+}
+
+.sponsor-img {
+	margin-top: 2em;
+	img {
+		height: 100px;
+		max-width: 100%;
+		display: block;
+		margin: auto;
+	}
+}
+
+/* Race Results Page ------------------------------------- */
+.results-pg {
+	margin-top: 10em;
+	@media ( max-width: 414px ) {
+		margin-top: 2em;
+	}
+	margin-bottom: 2em;
+}
+
+#raceResults {
+	.row {
+		margin: 0px;
+	}
+	img {
+		max-width: 100%;
+		height: 100%;
+	}
+	h2 {
+		margin-top: 0px;
+	}
+	p {
+		margin: 0px;
+	}
+	@media ( max-width: 414px ) {
+		h2 {
+			font-size: 17px;
+		}
+	}
+}
